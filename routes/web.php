@@ -28,7 +28,7 @@ Route::get('/users',function (){
     return ['r1','r2','r3','listend'];
 });
 
-//Route to users - Arraay (json)
+//Route to users - Arraay (json object )
 Route::get('/users',function (){
     return response()->json([
         'name' =>'laravel',
