@@ -13,5 +13,6 @@ use App\Http\Controllers\ProductsController;
 |
 */
 //route that sends back a view
+//laravel 8 (new)
+//index, about are function names
 Route::get('/products',[ProductsController::class,'index']); 
-
